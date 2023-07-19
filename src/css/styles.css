@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+#root,
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.event-click * {
+    cursor: pointer;
+}
+
+#root>.wbaseItem-value {
+    width: 100% !important;
+    min-width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+}
+
+.sidebar>* {
+    transition: 0.3s;
+}
+
+.sidebar>*:hover {
+    background-color: #2C2C2C;
+}
+
+/* .sidebar>*.hide {
+    display: hide;
+}
+
+.sidebar>*.show {
+    display: flex;
+} */
+
+.sidebar>*>* {
+    pointer-events: none;
+}
+
+.nav-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+/* .nav-link>* {
+    pointer-events: none;
+} */
